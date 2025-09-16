@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+        .header {
+            background-color: rgb(36, 47, 13);
+            padding: 20px;
+        }
+        .header h1 {
+            color: white;
+            font-family: Arial;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Toko Tembakau 69</h1>
+    </div>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: rgb(96, 132, 96);
+            }
+            h2,
+            p {
+                margin: 10px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+            }
+            ul li {
+                float: left;
+            }
+            ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            ul li a:hover {
+                background-color: #111111;
+            }
+            
+        </style>
+    </head>
+<body>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="beli.html">Beli</a></li>
+        </ul>
+
+  <style>
+    h2 {
+      text-align: center;
+      color: #084508;
+    }
+    form {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input[type="text"], select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+    .radio-group, .checkbox-group {
+      margin-top: 5px;
+    }
+    .radio-group input, .checkbox-group input {
+      margin-right: 8px;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      background-color: #006b3c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #004d2a;
+    }
+    .radio-group {
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .radio-group label {
+      display: flex;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>Form Pembelian</h2>
+  <form action="aksi.html" method="get">
+    <label for="nama">Nama Lengkap:</label>
+    <input type="text" id="nama" name="nama" required>
+
+    <label>Jumlah:</label>
+    <div class="radio-group">
+      <label>
+      <input type="radio" name="jumlah" value="250"> <label >250 gram
+      </label>
+      
+      <input type="radio" name="jumlah" value="500"> <label >500 gram</label>
+    </div>
+
+    <label for="produksi">Produksi:</label>
+    <select id="produk" name="produk" required>
+      <option value="">-- Pilih Produksi --</option>
+      <option value="amerika">Amerika Serikat</option>
+      <option value="meksiko">Meksiko</option>
+      <option value="thailand">Thailand</option>
+    </select>
+
+    <label>Pernyataan</label>
+    <div class="radio-group">
+      <input type="checkbox" >Dengan ini saya menyatakan bahwa apapun yang terjadi dengan saya bukan tanggung jawab toko<br>
+    </div>
+
+    <label for="alamat">Alamat Pengiriman (cod):</label>
+    <textarea id="alamat" name="alamat"></textarea>
+
+    <button type="kirim">Kirim</button>
+  </form>
+
+</body>
+</html>
